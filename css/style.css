@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto:900&display=swap');
+#wrap {width:100%; height: 11300px; background:linear-gradient(#eb9f9f, #f1bbba, #ffffff, #f8ecc9, #a78293); margin: 0 auto; max-width:1920px;}
+#header {width:90%; height: 70px; font-family: 'Roboto', sans-serif; position: fixed; margin: 0 auto; left: 50%; 
+-webkit-transform: translate(-50%, 0);
+-ms-transform: translate(-50%, 0);
+-moz-transform: translate(-50%, 0);
+-o-transform: translate(-50%, 0);
+transform: translate(-50%, 0);  z-index: 1000;}
+#header h1 {width:100px; height: 100px; position: absolute; top: 5px;}
+#header h1 img {width:60px; height: 60px;}
+#header .hamburger {width: 30px; height: 40px; float: right; position: relative; margin-top: 10px;}
+#header .hamburger span {width: 100%; height: 3px; background: #000000; margin-top: 5px; display: block;}
+#section {width: 100%; height: 11100px; }
+#main_section {width: 100%; height: 100vh; }
+#txt_section {width: 100%; height: 100vh; margin: 0 auto; font-family: 'Merriweather', serif; overflow:hidden; position: relative; }
+#txt_section .ball1 {position: absolute; top: 30%; left:-7%;}
+#txt_section h2 {font-size: 60px; color: #000000; text-align: center;}
+#profile_section {width: 100%; height: auto; text-align: center;}
+#profile_section h2 {font-family: 'Merriweather'; font-size: 140px; color: #333333; margin-bottom: 100px; letter-spacing: 5px; font-weight: normal;}
+#profile_section ul {font-size: 160px; font-family: 'Roboto', sans-serif; font-weight:900; color:#333333;}
+#work_section {width: 100%; height: 3800px; position: relative;}
+#work_section .work_1 {width: 60%; height: auto;  margin: 0 auto; float: left; margin-left: 100px;}
+#work_section h2 {font-family: 'Merriweather'; font-size: 140px; color: #333333; margin-bottom: 140px; letter-spacing: 5px; font-weight: normal;  margin-top: 500px; margin-left: 80px;}
+#work_section .work_box {width: 550px; height: 550px; box-shadow: 9px 8px 20.3px 2.7px rgba(199, 199, 199, 0.46); background:#ffffff; float: left;}
+#work_section .work_txt {width: 400px; height: auto; float: left; margin-left: 20px;}
+#work_section .work_1 .work_box {background: url(../img/zara.jpg) no-repeat center center; background-size: cover;}
+#work_section .work_txt h3 {font-size: 35px;}
+#work_section .work_2 {width: 550px; height: auto;  margin: 0 auto; float: right; clear: both; margin-right: 100px;}
+#work_section .work_2 .work_box {clear: both; background: url(../img/sejong.jpg) no-repeat center center; background-size: cover; }
+#work_section .work_2 .work_txt {margin-left: 0; margin-bottom: 20px;}
+#work_section .work_3 {width: 60%; height: auto;  margin: 0 auto; float: left; clear: both; margin-left: 100px;}
+#work_section .work_4 {width: 550px; height: auto;  margin: 0 auto; float: right; clear: both; margin-right: 100px;}
+#work_section .work_4 .work_box {clear: both;  background: url(../img/jyp.jpg) no-repeat center center; background-size: cover; }
+#work_section .work_4 .work_txt {margin-left: 0; margin-bottom: 20px;}
+#work_section .work_5 {width: 60%; height: auto;  margin: 0 auto; float: left; clear: both; margin-left: 100px;}
+#work_section .work_5 .work_box {background: url(../img/jillstuart.jpg) no-repeat center center; background-size: cover;}
+#contact {width: 100%; height: 1300px; margin: 0 auto; background: url(../img/mapbg.jpg) no-repeat center center; background-size: cover;}
+#contact .contact_middle h2 {text-align: center; font-size: 11rem; color: #333333; font-family: 'Merriweather';  font-weight: normal; padding-top: 200px;}
+#contact .contact_middle p {text-align: center; font-size: 23px;}
+#contact .contact_txt {margin-left: 100px; margin-top: 200px;}
+#contact .contact_txt h3 {font-size: 50px; margin-top: 40px;}
+#contact .contact_txt p {font-size: 20px; margin-left: 20px; color: #333333;}
+#last {width: 100%; height
+: 1000px; margin-top: 700px; overflow: hidden; position: relative;}
+#last h2 {font-size: 8rem;}
+#last .ball1 {width: 700px; height: 700px;  position : absolute; left: -400px;}
+#footer {width:100%; height:300px; background: #000000;} 
